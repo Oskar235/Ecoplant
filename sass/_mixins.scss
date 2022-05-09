@@ -1,0 +1,29 @@
+@mixin bars {
+	position: absolute;
+	content: '';
+	height: 3px;
+	width: 100%;
+	right: 0;
+	background-color: $main-color;
+}
+
+@mixin bgImg($img) {
+	background-image: $blue-gradient, url($img);
+	background-position: center;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+@mixin offerCardStyles {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@mixin contactForm {
+	margin-bottom: 2em;
+	padding: 0.6em 1.2em;
+	bottom: none;
+	border-radius: 8px;
+	font-size: 1.6rem;
+}

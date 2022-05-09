@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoplant</title>
+    <script src="https://kit.fontawesome.com/8ceb1781cd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <button class="burger-btn" onclick="deleteAnimation()">
+        <div class="burger-btn__box">
+            <div class="burger-btn__bars"></div>
+        </div>
+    </button>
+
+    <nav class="nav">
+        <div class="nav__items">
+            <a href="#" class="nav__item" onclick="deleteAnimation()">O nas </a>
+            <a href="#offer" class="nav__item" onclick="deleteAnimation()">Oferta</a>
+            <a href="#reviews" class="nav__item" onclick="deleteAnimation()">Opinie</a>
+            <a href="#contact" class="nav__item" onclick="deleteAnimation()">Kontakt</a>
+        </div>
+    </nav>
+
+    <!-- Coś nie tak-->
+    <header class="header">
+        <div class="header__heading">
+            <h1>EcoPlant</h1>
+        </div>
+        <div class="header__text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, rerum.</p>
+        </div>
+
+        <a href="#offer" class="header__btn btn-special-animation">Poznaj ofertę</a>
+    </header>
+
+    <main>
+        <!-- block which is between sections -->
+        <section class="section">
+            <div class="block block--top">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+        </section>
+        <section class="about-us section-padding section" id="about-us">
+            <div class="wrapper">
+                <h2 class="section-heading">O nas</h2>
+
+                <div class="about-us__box">
+                    <div class="about-us__box-img ">
+                        <img src="./img/tea-min.jpg" alt="Uprawa herbaty" class="about-us__img">
+                    </div>
+                    <div class="about-us__box-text">
+                        <h3 class="about-us__title">Jesteśmy najwiekszą firmą<br> w polsce</h3>
+                        <p class="about-us__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            dolor inventore
+                            excepturi nihil ab deserunt sint ullam ut explicabo exercitationem illum modi dolores,
+                            quia ad harum rem soluta assumenda ex.</p>
+                    </div>
+                </div>
+
+                <div class="about-us__box about-us__box--right ">
+                    <div class="about-us__box-img about-us__box-img">
+                        <img src="./img/purple-rose-min.jpg" alt="Uprawa herbaty" class="about-us__img">
+                    </div>
+                    <div class="about-us__box-text about-us__box-img--right">
+                        <h3 class="about-us__title">Jesteśmy najlepsi</h3>
+                        <p class="about-us__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor inventore
+                            excepturi nihil ab deserunt sint ullam ut explicabo exercitationem illum modi dolores,
+                            quia ad harum rem soluta assumenda ex.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="section">
+            <div class="block block--bottom">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+        </section>
+
+        <section class="bg-img section">
+            <div class="bg-img__text">
+                <hr>
+                <h2>Najlepsze usługi</h2>
+                <hr>
+            </div>
+        </section>
+        <section class="section">
+            <div class="block block--top">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+            <section class="offer section section-padding" id="offer">
+                <div class="wrapper">
+                    <h2 class="section-heading">Oferta</h2>
+                    <div class="offer__cards">
+                        <!-- Pierwsza -->
+                        <div class="offer__card" onclick="void(0)">
+                            <div class="offer__card-img offer__card-img--first">
+                                <h3>Koszenie</h3>
+                                <p class="offer__card-img-info">Więcej informacji</p>
+                            </div>
+                            <div class="offer__card-info">
+                                <h3 class="offer__card-info-title">Koszenie</h3>
+                                <ul class="offer__card-info-list">
+                                    <li class="offer__card-info-list-item">Ładna trawa</li>
+                                    <li class="offer__card-info-list-item">Idealnie skoszona</li>
+                                    <li class="offer__card-info-list-item">Dopasowny sprzęt</li>
+                                </ul>
+                                <button class="offer__card-info-btn btn-special-animation">Wybierz</button>
+                            </div>
+                        </div>
+                        <!-- Druga -->
+                        <div class="offer__card" onclick="void(0)">
+                            <div class="offer__card-img offer__card-img--second">
+                                <h3>Przycinanie krzewów</h3>
+                                <p class="offer__card-img-info">Więcej informacji</p>
+                            </div>
+                            <div class="offer__card-info">
+                                <h3 class="offer__card-info-title">Przycinanie krzewów</h3>
+                                <ul class="offer__card-info-list">
+                                    <li class="offer__card-info-list-item">Idealnie przycięte</li>
+                                    <li class="offer__card-info-list-item">Możliwość specjalnego kształtu</li>
+                                    <li class="offer__card-info-list-item">Odpowiedni sprzęt</li>
+                                </ul>
+                                <button class="offer__card-info-btn btn-special-animation">Wybierz</button>
+                            </div>
+                        </div>
+                        <!-- Trzecia -->
+                        <div class="offer__card" onclick="void(0)">
+                            <div class="offer__card-img offer__card-img--third">
+                                <h3>Renowacja ogrodu</h3>
+                                <p class="offer__card-img-info">Więcej informacji</p>
+                            </div>
+                            <div class="offer__card-info">
+                                <h3 class="offer__card-info-title">Renowacja ogrodu</h3>
+                                <ul class="offer__card-info-list">
+                                    <li class="offer__card-info-list-item">Przesadzenie roślin</li>
+                                    <li class="offer__card-info-list-item">Odnowa roślin</li>
+                                    <li class="offer__card-info-list-item">Pielęgnacja roślin</li>
+                                </ul>
+                                <button class="offer__card-info-btn btn-special-animation">Wybierz</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <div class="block block--bottom">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+        </section>
+        <section class="reviews " id='reviews'>
+            <h2 class="section-heading">Opinie</h2>
+            <div class="wrapper">
+                <div class="reviews__boxes">
+                    <div class="reviews__box">
+                        <div class="reviews__box-profil">
+                            <img src="./img/Kasia-Nowicka.jpg" alt="Kasia Nowicka">
+                        </div>
+                        <strong>Kasia Nowicka</strong>
+                        <div class="reviews__box-info">
+                            <p class="reviews__box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quaerat, quos.</p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-profil">
+                            <img src="./img/radek-towar.jpg" alt="Radek Towar">
+                        </div>
+                        <strong>Radek Towar</strong>
+                        <div class="reviews__box-info">
+                            <p class="reviews__box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quaerat, quos.</p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__box">
+                        <div class="reviews__box-profil">
+                            <img src="./img/Piotr-Miotła.jpg" alt="Piotr Miotła">
+                        </div>
+                        <strong>Piotr Miotła</strong>
+                        <div class="reviews__box-info">
+                            <p class="reviews__box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quaerat, quos.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="block block--top">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+        </section>
+        <section class="contact section-padding" id="contact">
+            <div class="wrapper">
+                <form class="contact__form">
+                    <div class="contact__form-top">
+                        <label for="name" class="contact_form-label">Imię i nazwisko</label>
+                        <input type="text" class="contact__form-input" id="name">
+
+                        <label for="email" class="contact__form-label">Adres e-mail:</label>
+                        <input type="text" class="contact__form-input" id="email">
+                    </div>
+
+                    <label for="msg" class="contact__form-label">Wiadomość:</label>
+                    <textarea id="msg" class="contact__form-textarea"></textarea>
+
+                    <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
+                </form>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="block block--bottom">
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+                <div class="circle-block"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title">Ecoplant</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, a.</p>
+                    <div class="footer__box-social">
+                        <a href="" class="footer__box-link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="" class="footer__box-link"><i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="" class="footer__box-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Usługi</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Koszenie</a></li>
+                        <li class="footer__box-list-item"><a href="#">Przycinanie ogrodów</a></li>
+                        <li class="footer__box-list-item"><a href="#">Przycinanie krzewów</a></li>
+                        <li class="footer__box-list-item"><a href="#">Pozostałe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"> EcoPlant</span></p>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
